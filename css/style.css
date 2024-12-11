@@ -5,7 +5,10 @@
 }
 
 *{
-    color: white;
+    color: #A3A3A3;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 800;
 }
 
 .container {
@@ -15,6 +18,10 @@
 .flex {
     display: flex;
     align-items: center;
+}
+
+.flex span{
+    display: none;
 }
 
 aside {
@@ -48,8 +55,53 @@ aside {
     width: 1.8rem;
 }
 
+.complete {
+    display: none;
+}
+
 section {
     flex-basis: 80%;
+}
+
+h2 {
+    display: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.playlist {
+    display: none;
+}
+
+.fa-plus {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #A3A3A3;
+    color: black;
+    font-weight: bold;
+}
+
+.playlist span{
+    align-self: center;
+    margin-left: 5px;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.profile {
+    display: none;
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+}
+
+aside hr {
+    display: none;
 }
 
 header {
