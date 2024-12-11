@@ -1,0 +1,55 @@
+/* VERSIONE SMARTPHONE SMALL */
+
+@media screen and (min-width:0px) {
+    aside {
+        height: 90vh;
+        flex-basis: 15%;
+    }
+
+    section {
+        flex-basis: 85%;
+    }
+    
+}
+
+/* VERSIONE SMARTPHONE NORMAL */
+
+@media screen and (min-width:320px) {
+    aside {
+        height: 90vh;
+        flex-basis: 40%;
+    }
+
+    section {
+        flex-basis: 60%;
+    }
+    
+}
+
+/* VERSIONE TABLET */
+
+@media screen and (min-width:768px) {
+    aside {
+        height: 90vh;
+        flex-basis: 25%;
+    }
+
+    section {
+        flex-basis: 75%;
+    }
+    
+}
+
+/* VERSIONE DESKTOP */
+
+@media screen and (min-width:992px) {
+    aside {
+        height: 90vh;
+        flex-basis: 20%;
+    }
+
+    section {
+        flex-basis: 80%;
+    }
+    
+}
