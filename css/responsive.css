@@ -15,7 +15,7 @@
 
 /* VERSIONE SMARTPHONE NORMAL */
 
-@media screen and (min-width:321px) {
+@media screen and (min-width:480px) {
 
     .aside-container {
         display: flex;
@@ -87,6 +87,14 @@
         flex-basis: 70%;
     }
 
+    .menu div {
+        padding-left: 20px;
+        font-size: 10px;
+        align-self: center;
+        flex-basis: calc(100% / 3);
+        line-height: 40px;
+    }
+
     
 }
 
@@ -102,12 +110,25 @@
     section {
         flex-basis: 75%;
     }
+
+    .menu div {
+        padding-left: 0px;
+        font-size: 10px;
+        align-self: center;
+        flex-basis: calc(100% / 5 - 10px);
+        line-height: 35px;
+    }
+
+    .song-list div{
+        flex-basis: calc(100% / 4 - 10px);
+        text-align: center;
+    }
     
 }
 
 /* VERSIONE DESKTOP */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1023px) {
 
     aside {
         height: 90vh;
@@ -116,6 +137,21 @@
 
     section {
         flex-basis: 80%;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .menu div {
+        flex-basis: 10%;
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .song-list div{
+        flex-basis: calc(100% / 6 - 10px);
+        text-align: center;
     }
     
 }
