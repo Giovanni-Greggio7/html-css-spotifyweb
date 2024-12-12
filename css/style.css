@@ -118,6 +118,7 @@ aside hr {
     border-radius: 20px;
     color: white;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .main--cta {
@@ -143,8 +144,6 @@ aside hr {
     flex-basis: calc(100% / 4 - 10px);
     line-height: 25px;
 }
-
-
 
 footer {
     height: 10vh;
