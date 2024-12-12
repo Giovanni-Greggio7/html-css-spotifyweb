@@ -136,18 +136,12 @@ aside hr {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .menu div{
     font-size: 6px;
     flex-basis: calc(100% / 4 - 10px);
     line-height: 25px;
-}
-
-footer {
-    height: 10vh;
-    background-color: #282828;
 }
 
 section h2 {
@@ -195,6 +189,11 @@ h4 {
 .singers div img{
     border-radius: 100px;
     aspect-ratio: 1;
+}
+
+footer {
+    height: 10vh;
+    background-color: #282828;
 }
 
 
