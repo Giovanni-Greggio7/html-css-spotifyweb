@@ -64,7 +64,7 @@ aside {
 section {
     flex-basis: 80%;
     background-color: #141922;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 h2 {
@@ -86,6 +86,13 @@ h2 {
     font-weight: bold;
 }
 
+.fa-house,
+.fa-magnifying-glass,
+.fa-book {
+    color: #A3A3A3;
+    font-size: 15px;
+}
+
 .playlist span{
     align-self: center;
     margin-left: 5px;
@@ -104,10 +111,15 @@ ul {
     font-size: 12px;
 }
 
+.user {
+    background-color: #A3A3A3;
+    aspect-ratio: 1;
+    border-radius: 20px;
+}
+
 aside hr {
     display: none;
 }
-
 
 .btn {
     border: 1px solid white;
@@ -130,18 +142,18 @@ aside hr {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.menu {
+.menu ul{
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
-.menu div{
-    font-size: 6px;
-    flex-basis: calc(100% / 4 - 10px);
-    line-height: 25px;
+.menu ul li a{
+    text-decoration: none;
+    font-size: 8px;
 }
 
 section h2 {
@@ -194,9 +206,85 @@ h4 {
 footer {
     height: 10vh;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.foot-contain {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
 
+.playing {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
 
+.playing div {
+    width: 30%;
+}
 
+.playing div img {
+    width: 3rem;
+}
 
+.playing div h3 {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.playing div h4 {
+    margin: 0;
+}
+
+.control-bar {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.control-bar, .fa-solid {
+    color: white;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-circle-play {
+    color: white;
+    font-size: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.progress {
+    background-color: rgb(125, 125, 125);
+    border-radius: 10px;
+}
+
+.other-options {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

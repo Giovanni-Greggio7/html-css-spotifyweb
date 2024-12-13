@@ -10,6 +10,10 @@
     section {
         flex-basis: 90%;
     }
+
+    .other-options {
+        display: none;
+    }
     
 }
 
@@ -54,7 +58,7 @@
 
     aside {
         height: 90vh;
-        flex-basis: 30%;
+        flex-basis: 40%;
         align-items: flex-start;
         padding-left: 10px;
         
@@ -84,17 +88,24 @@
     }
 
     section {
-        flex-basis: 70%;
+        flex-basis: 60%;
     }
 
-    .menu div {
-        padding-left: 20px;
+    .menu ul li a{
         font-size: 10px;
-        align-self: center;
-        flex-basis: calc(100% / 3);
-        line-height: 40px;
     }
 
+    .buttons{
+        justify-content: center;
+    }
+
+    .playing div img {
+        width: 100%;
+    }
+
+    .other-options {
+        display: none;
+    }
     
 }
 
@@ -123,6 +134,46 @@
         flex-basis: calc(100% / 4 - 10px);
         text-align: center;
     }
+
+    .menu ul li a{
+        font-size: 13px;
+    }
+
+    .playing {
+        flex-basis: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 5px;
+    }
+
+    .playing div img {
+        width: 80%;
+    }
+
+    .control-bar {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons .fa-solid {
+        color: white;
+        font-size: 20px;
+    }
+
+    .fa-sharp {
+        font-size: 25px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .other-options {
+        display: flex;
+    }
     
 }
 
@@ -143,10 +194,14 @@
         gap: 20px;
     }
 
-    .menu div {
+    /* .menu div {
         flex-basis: 10%;
         font-size: 10px;
         line-height: 25px;
+    } */
+
+    .menu ul li a{
+        font-size: 13px;
     }
 
     .song-list div{
@@ -187,6 +242,29 @@
         margin-left: 1rem;
         font-size: 16px;
         margin-top: 2rem;
+    }
+
+    .playing {
+        flex-basis: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 5px;
+    }
+
+    .playing div img {
+        width: 50%;
+    }
+
+    .control-bar {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other-options {
+        display: flex;
     }
     
     
